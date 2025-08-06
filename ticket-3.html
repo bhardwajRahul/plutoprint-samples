@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Tickets</title>
+  <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="content-type" content="text-html; charset=utf-8">
+</head>
+
+<style>
+  body {
+    margin: 0;
+    color: #ffffff;
+    font-family: Source Sans Pro, sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+  }
+
+  .container {
+    width: 795px;
+    margin: 0 auto;
+  }
+
+  section {
+    position: relative;
+    height: 280px;
+    width: 100%;
+    background-image: url(images/concert.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  section .left {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 635px;
+    padding: 35px 0 0 60px;
+  }
+  section .right {
+    float: right;
+    width: 160px;
+    padding-top: 30px;
+  }
+  section .event {
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 1.6em;
+    line-height: 35px;
+    text-transform: uppercase;
+  }
+  section .title {
+    margin-bottom: 35px;
+    color: #F5A623;
+    font-family: Audiowide, cursive;
+    font-size: 4em;
+    line-height: 72px;
+  }
+  section .info {
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+  section .seats {
+    margin-bottom: 35px;
+    font-size: 0.36em;
+    text-transform: uppercase;
+    text-align: right;
+  }
+  section .seats:last-child {
+    margin-bottom: 0;
+  }
+  section .seats span {
+    display: inline-block;
+    width: 80px;
+    margin-left: 15px;
+    padding: 10px 0;
+    color: #F5A623;
+    background: rgba(255, 255, 255, 0.5);
+    font-family: Kreon, serif;
+    font-size: 2.777em;
+    text-align: center;
+    vertical-align: middle;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <section>
+      <div class="left">
+        <div class="event">Live in concert</div>
+        <div class="title">Joe Doe</div>
+        <div class="info">Saturday // August 25 2020 // The Plaza // New York</div>
+      </div>
+      <div class="right">
+        <div class="seats">section<span>A</span></div>
+        <div class="seats">row<span>13</span></div>
+        <div class="seats">seat<span>120</span></div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>

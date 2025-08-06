@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Audiowide;
+  font-weight: normal;
+  src: url(Audiowide-Regular.ttf);
+}
+
+@font-face {
+  font-family: Kreon;
+  font-weight: normal;
+  src: url(Kreon-Regular.ttf);
+}
+
+@font-face {
+  font-family: Kreon;
+  font-weight: bold;
+  src: url(Kreon-Bold.ttf);
+}
+
+@font-face {
+  font-family: Lobster;
+  font-weight: normal;
+  src: url(Lobster-Regular.ttf);
+}
+
+@font-face {
+  font-family: Source Sans Pro;
+  font-weight: normal;
+  src: url(SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: Source Sans Pro;
+  font-weight: bold;
+  src: url(SourceSansPro-Bold.ttf);
+}
